@@ -1,0 +1,6 @@
+{
+  "port": 7000,
+  "jwtSecret": "Have a nice day",
+  "refreshTokenSecret": "Have a good year",
+  "mongoUri": "mongodb://localhost:27017/NodeJS?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "node_auth",
+  "version": "1.0.0",
+  "description": "Authentification node",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "react",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.2",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.4"
+  }
+}
